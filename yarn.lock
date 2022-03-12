@@ -4363,10 +4363,10 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-ezchainjs2@1.0.0-mainnet:
-  version "1.0.0-mainnet"
-  resolved "https://registry.yarnpkg.com/ezchainjs2/-/ezchainjs2-1.0.0-mainnet.tgz#0b5caddb4b276d6ae2eab674cc3ca64f5121d63a"
-  integrity sha512-olmRBnLqcGZ5KflRxeurgvLnA+WPsfgtR406Gy4gzVm+ZoTcPR27bS93MrNTMeGljga7yBkvstXcTT+iKG175w==
+ezchainjs2@1.0.4-mainnet:
+  version "1.0.4-mainnet"
+  resolved "https://registry.yarnpkg.com/ezchainjs2/-/ezchainjs2-1.0.4-mainnet.tgz#0fd9eecf24627390ae082c29da5dc93f341e073d"
+  integrity sha512-5sj+ldi5zP88lD+wF4VL9mUi4Y9dgrLwTo4u84E2DZqhwm0CGLfV0is76aG7hODznVNEMMe57vICGmiqWNOg+Q==
   dependencies:
     assert "2.0.0"
     axios "0.24.0"
