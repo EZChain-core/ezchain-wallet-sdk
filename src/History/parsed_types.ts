@@ -1,4 +1,4 @@
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import { ChainIdType } from '@/types';
 import { iAssetDescriptionClean } from '@/Asset/types';
 

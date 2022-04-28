@@ -1,5 +1,5 @@
 import { pChain, xChain } from '@/Network/network';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 
 /**
  * Returns the transaction fee for X chain.

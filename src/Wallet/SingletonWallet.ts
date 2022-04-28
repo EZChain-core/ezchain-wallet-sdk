@@ -1,16 +1,16 @@
 import { WalletProvider } from '@/Wallet/Wallet';
 import { UnsafeWallet, WalletNameType } from '@/Wallet/types';
 
-import { KeyChain as AVMKeyChain, UnsignedTx as AVMUnsignedTx, Tx as AVMTx } from 'ezchainjs2/dist/apis/avm';
+import { KeyChain as AVMKeyChain, UnsignedTx as AVMUnsignedTx, Tx as AVMTx } from '@ezclabs/ezchainjs/dist/apis/avm';
 import {
     KeyChain as PlatformKeyChain,
     UnsignedTx as PlatformUnsignedTx,
     Tx as PlatformTx,
-} from 'ezchainjs2/dist/apis/platformvm';
+} from '@ezclabs/ezchainjs/dist/apis/platformvm';
 import { avalanche, pChain, xChain } from '@/Network/network';
-import { Buffer as BufferAvalanche } from 'ezchainjs2';
+import { Buffer as BufferAvalanche } from '@ezclabs/ezchainjs';
 import { EvmWallet } from '@/Wallet/EvmWallet';
-import { UnsignedTx, Tx, KeyPair as EVMKeyPair } from 'ezchainjs2/dist/apis/evm';
+import { UnsignedTx, Tx, KeyPair as EVMKeyPair } from '@ezclabs/ezchainjs/dist/apis/evm';
 import { FeeMarketEIP1559Transaction, Transaction } from '@ethereumjs/tx';
 import { bintools } from '@/common';
 

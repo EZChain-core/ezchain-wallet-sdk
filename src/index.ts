@@ -9,7 +9,7 @@ export * from './Wallet';
 import * as NetworkConstants from '@/Network/constants';
 import * as Utils from '@/utils';
 import Keystore from '@/Keystore/keystore';
-export { BN } from 'ezchainjs2';
+export { BN } from '@ezclabs/ezchainjs';
 import Big from 'big.js';
 
 export * from '@/helpers';

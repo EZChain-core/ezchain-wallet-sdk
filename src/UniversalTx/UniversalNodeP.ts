@@ -6,7 +6,7 @@ import {
     UniversalTxExportP,
     UniversalTxImportP,
 } from '@/UniversalTx/types';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 
 export default class UniversalNodeP extends UniversalNodeAbstract {
     constructor(balance: BN, feeExport: BN, feeImport: BN) {

@@ -1,4 +1,4 @@
-import { Buffer as BufferAvalanche } from 'ezchainjs2';
+import { Buffer as BufferAvalanche } from '@ezclabs/ezchainjs';
 import { FeeMarketEIP1559Transaction, Transaction } from '@ethereumjs/tx';
 import { avalanche } from '@/Network/network';
 import {
@@ -6,7 +6,7 @@ import {
     KeyPair as EVMKeyPair,
     UnsignedTx as EVMUnsignedTx,
     Tx as EVMTx,
-} from 'ezchainjs2/dist/apis/evm';
+} from '@ezclabs/ezchainjs/dist/apis/evm';
 import { EvmWalletReadonly } from '@/Wallet/EvmWalletReadonly';
 import { bintools } from '@/common';
 import { computePublicKey } from 'ethers/lib/utils';

@@ -1,10 +1,16 @@
 import { activeNetwork, cChain, web3 } from '@/Network/network';
-import { BN } from 'ezchainjs2';
-import { EVMInput, ExportTx, SECPTransferOutput, TransferableOutput, UnsignedTx } from 'ezchainjs2/dist/apis/evm';
+import { BN } from '@ezclabs/ezchainjs';
+import {
+    EVMInput,
+    ExportTx,
+    SECPTransferOutput,
+    TransferableOutput,
+    UnsignedTx,
+} from '@ezclabs/ezchainjs/dist/apis/evm';
 import { ExportChainsC } from '@/Wallet/types';
 import { bintools } from '@/common';
 import { chainIdFromAlias } from '@/Network';
-import { costExportTx, costImportTx } from 'ezchainjs2/dist/utils';
+import { costExportTx, costImportTx } from '@ezclabs/ezchainjs/dist/utils';
 import { buildEvmExportTransaction } from '@/helpers/tx_helper';
 
 const MAX_GAS = new BN(1000_000_000_000);

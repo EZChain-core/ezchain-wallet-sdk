@@ -1,7 +1,7 @@
-import { Buffer as BufferAvalanche } from 'ezchainjs2';
+import { Buffer as BufferAvalanche } from '@ezclabs/ezchainjs';
 import { validateAddress } from '@/helpers/address_helper';
 import createHash from 'create-hash';
-import { PayloadBase, PayloadTypes } from 'ezchainjs2/dist/utils';
+import { PayloadBase, PayloadTypes } from '@ezclabs/ezchainjs/dist/utils';
 
 /**
  * Checks if address is valid.

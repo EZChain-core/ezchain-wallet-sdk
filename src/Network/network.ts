@@ -1,7 +1,7 @@
-import { Avalanche } from 'ezchainjs2/dist';
-import { AVMAPI } from 'ezchainjs2/dist/apis/avm';
-import { InfoAPI } from 'ezchainjs2/dist/apis/info';
-import { EVMAPI } from 'ezchainjs2/dist/apis/evm';
+import { Avalanche } from '@ezclabs/ezchainjs/dist';
+import { AVMAPI } from '@ezclabs/ezchainjs/dist/apis/avm';
+import { InfoAPI } from '@ezclabs/ezchainjs/dist/apis/info';
+import { EVMAPI } from '@ezclabs/ezchainjs/dist/apis/evm';
 import Web3 from 'web3';
 import { DefaultConfig } from './constants';
 import { NetworkConfig, NetworkConfigRpc, NetworkProtocolType } from './types';

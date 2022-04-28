@@ -1,7 +1,7 @@
 import { HDWalletAbstract } from '@/Wallet/HDWalletAbstract';
-import { UnsignedTx as EVMUnsignedTx, Tx as EVMTx } from 'ezchainjs2/dist/apis/evm';
-import { UnsignedTx as PlatformUnsignedTx, Tx as PlatformTx } from 'ezchainjs2/dist/apis/platformvm';
-import { UnsignedTx as AVMUnsignedTx, Tx as AVMTx } from 'ezchainjs2/dist/apis/avm';
+import { UnsignedTx as EVMUnsignedTx, Tx as EVMTx } from '@ezclabs/ezchainjs/dist/apis/evm';
+import { UnsignedTx as PlatformUnsignedTx, Tx as PlatformTx } from '@ezclabs/ezchainjs/dist/apis/platformvm';
+import { UnsignedTx as AVMUnsignedTx, Tx as AVMTx } from '@ezclabs/ezchainjs/dist/apis/avm';
 import { Transaction } from '@ethereumjs/tx';
 import { WalletNameType } from '@/Wallet/types';
 import { EvmWallet } from '@/Wallet/EvmWallet';

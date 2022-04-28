@@ -1,4 +1,4 @@
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import { UniversalTx } from '@/UniversalTx/types';
 import UniversalNodeX from '@/UniversalTx/UniversalNodeX';
 import UniversalNodeP from '@/UniversalTx/UniversalNodeP';

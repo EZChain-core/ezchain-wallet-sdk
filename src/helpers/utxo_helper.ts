@@ -1,10 +1,10 @@
-import { UTXOSet as AVMUTXOSet } from 'ezchainjs2/dist/apis/avm/utxos';
-import { UTXOSet as PlatformUTXOSet } from 'ezchainjs2/dist/apis/platformvm/utxos';
-import { UTXOSet as EVMUTXOSet } from 'ezchainjs2/dist/apis/evm/utxos';
+import { UTXOSet as AVMUTXOSet } from '@ezclabs/ezchainjs/dist/apis/avm/utxos';
+import { UTXOSet as PlatformUTXOSet } from '@ezclabs/ezchainjs/dist/apis/platformvm/utxos';
+import { UTXOSet as EVMUTXOSet } from '@ezclabs/ezchainjs/dist/apis/evm/utxos';
 import { xChain, cChain, pChain } from '@/Network/network';
 import { ExportChainsC, ExportChainsP, ExportChainsX } from '@/Wallet/types';
 import { chainIdFromAlias } from '@/Network/helpers/idFromAlias';
-import { GetStakeResponse } from 'ezchainjs2/dist/apis/platformvm/interfaces';
+import { GetStakeResponse } from '@ezclabs/ezchainjs/dist/apis/platformvm/interfaces';
 
 /**
  *

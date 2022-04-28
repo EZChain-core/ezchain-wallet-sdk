@@ -1,3 +1,3 @@
-import { BinTools } from 'ezchainjs2';
+import { BinTools } from '@ezclabs/ezchainjs';
 
 export const bintools = BinTools.getInstance();

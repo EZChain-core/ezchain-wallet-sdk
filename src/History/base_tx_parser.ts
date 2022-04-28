@@ -12,8 +12,8 @@ import {
 } from '@/History';
 import * as Assets from '@/Asset/Assets';
 import { bnToLocaleString, getTxFeeX } from '@/utils';
-import { AVMConstants } from 'ezchainjs2/dist/apis/avm';
-import { BN } from 'ezchainjs2';
+import { AVMConstants } from '@ezclabs/ezchainjs/dist/apis/avm';
+import { BN } from '@ezclabs/ezchainjs';
 import { getAssetBalanceFromUTXOs, getNFTBalanceFromUTXOs, parseMemo } from '@/History/history_helpers';
 import {
     filterDuplicateStrings,

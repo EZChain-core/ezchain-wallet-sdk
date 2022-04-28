@@ -1,6 +1,6 @@
-import { KeyPair as AVMKeyPair } from 'ezchainjs2/dist/apis/avm';
+import { KeyPair as AVMKeyPair } from '@ezclabs/ezchainjs/dist/apis/avm';
 
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 
 import { MnemonicWallet } from '@/Wallet/MnemonicWallet';
 import { SingletonWallet } from '@/Wallet/SingletonWallet';

@@ -1,6 +1,6 @@
 import { cChain, pChain, web3, xChain } from '@/Network/network';
 
-import { BN, Buffer } from 'ezchainjs2';
+import { BN, Buffer } from '@ezclabs/ezchainjs';
 import {
     AVMConstants,
     MinterSet,
@@ -9,13 +9,13 @@ import {
     UTXO as AVMUTXO,
     UTXOSet as AVMUTXOSet,
     UTXOSet,
-} from 'ezchainjs2/dist/apis/avm';
+} from '@ezclabs/ezchainjs/dist/apis/avm';
 
-import { PayloadBase } from 'ezchainjs2/dist/utils';
-import { OutputOwners } from 'ezchainjs2/dist/common';
-import { PlatformVMConstants, UTXOSet as PlatformUTXOSet } from 'ezchainjs2/dist/apis/platformvm';
+import { PayloadBase } from '@ezclabs/ezchainjs/dist/utils';
+import { OutputOwners } from '@ezclabs/ezchainjs/dist/common';
+import { PlatformVMConstants, UTXOSet as PlatformUTXOSet } from '@ezclabs/ezchainjs/dist/apis/platformvm';
 
-import { EVMConstants } from 'ezchainjs2/dist/apis/evm';
+import { EVMConstants } from '@ezclabs/ezchainjs/dist/apis/evm';
 
 import { FeeMarketEIP1559Transaction, Transaction } from '@ethereumjs/tx';
 import EthereumjsCommon from '@ethereumjs/common';

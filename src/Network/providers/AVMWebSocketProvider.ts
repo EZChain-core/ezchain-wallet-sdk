@@ -1,5 +1,5 @@
 import Sockette from 'sockette';
-import { PubSub } from 'ezchainjs2';
+import { PubSub } from '@ezclabs/ezchainjs';
 import { WalletType } from '@/Wallet/types';
 
 const FILTER_ADDRESS_SIZE = 1000;

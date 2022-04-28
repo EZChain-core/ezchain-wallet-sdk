@@ -1,5 +1,5 @@
 import { ITransactionData, UTXO } from '@/History/raw_types';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import { iHistoryBaseTxTokenOwners } from '@/History/parsed_types';
 
 export function filterDuplicateStrings(vals: string[]) {

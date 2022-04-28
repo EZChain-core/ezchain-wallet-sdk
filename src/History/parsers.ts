@@ -11,7 +11,7 @@ import {
 import { findSourceChain, getEvmAssetBalanceFromUTXOs, parseMemo } from '@/History/history_helpers';
 import { activeNetwork, xChain } from '@/Network/network';
 import { bnToAvaxC, bnToAvaxP, bnToAvaxX } from '@/utils';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import { getBaseTxSummary } from '@/History/base_tx_parser';
 import { idToChainAlias } from '@/Network/helpers/aliasFromNetworkID';
 import { getExportSummary, getImportSummary } from '@/History/importExportParser';

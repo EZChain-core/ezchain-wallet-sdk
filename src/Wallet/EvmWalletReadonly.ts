@@ -1,7 +1,7 @@
-import { BN, Buffer as BufferAvalanche } from 'ezchainjs2';
+import { BN, Buffer as BufferAvalanche } from '@ezclabs/ezchainjs';
 import { avalanche, web3 } from '@/Network/network';
 import { ethers } from 'ethers';
-import { KeyPair as EVMKeyPair } from 'ezchainjs2/dist/apis/evm/keychain';
+import { KeyPair as EVMKeyPair } from '@ezclabs/ezchainjs/dist/apis/evm/keychain';
 import { bintools } from '@/common';
 import { computePublicKey, computeAddress } from 'ethers/lib/utils';
 

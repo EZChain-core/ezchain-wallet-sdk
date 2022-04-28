@@ -1,8 +1,8 @@
 // If any of the outputs has a different chain ID, that's the destination chain
 // else return current chain
 import { iHistoryNftFamilyBalance, ITransactionData, UTXO } from '@/History';
-import { BN } from 'ezchainjs2';
-import { AVMConstants } from 'ezchainjs2/dist/apis/avm';
+import { BN } from '@ezclabs/ezchainjs';
+import { AVMConstants } from '@ezclabs/ezchainjs/dist/apis/avm';
 import { parseNftPayload } from '@/utils';
 
 /**

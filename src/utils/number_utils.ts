@@ -1,4 +1,4 @@
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import Big from 'big.js';
 
 declare module 'big.js' {

@@ -25,7 +25,7 @@ import {
     estimateAvaxGas,
     estimateErc20Gas,
 } from '@/helpers/tx_helper';
-import { BN, Buffer } from 'ezchainjs2';
+import { BN, Buffer } from '@ezclabs/ezchainjs';
 import { FeeMarketEIP1559Transaction, Transaction } from '@ethereumjs/tx';
 import { activeNetwork, avalanche, cChain, pChain, web3, xChain } from '@/Network/network';
 import { EvmWallet } from '@/Wallet/EvmWallet';
@@ -46,7 +46,7 @@ import {
     Tx as AvmTx,
     AVMConstants,
     AmountOutput,
-} from 'ezchainjs2/dist/apis/avm';
+} from '@ezclabs/ezchainjs/dist/apis/avm';
 import {
     UTXOSet as PlatformUTXOSet,
     UTXO as PlatformUTXO,
@@ -54,10 +54,10 @@ import {
     Tx as PlatformTx,
     PlatformVMConstants,
     StakeableLockOut,
-} from 'ezchainjs2/dist/apis/platformvm';
-import { UnsignedTx as EVMUnsignedTx, Tx as EVMTx, UTXOSet as EVMUTXOSet } from 'ezchainjs2/dist/apis/evm';
+} from '@ezclabs/ezchainjs/dist/apis/platformvm';
+import { UnsignedTx as EVMUnsignedTx, Tx as EVMTx, UTXOSet as EVMUTXOSet } from '@ezclabs/ezchainjs/dist/apis/evm';
 
-import { PayloadBase, UnixNow } from 'ezchainjs2/dist/utils';
+import { PayloadBase, UnixNow } from '@ezclabs/ezchainjs/dist/utils';
 import { getAssetDescription } from '@/Asset/Assets';
 import { getErc20Token } from '@/Asset/Erc20';
 import { NO_NETWORK } from '@/errors';
@@ -87,7 +87,7 @@ import {
     UniversalTx,
 } from '@/UniversalTx';
 import { UniversalNodeAbstract } from '@/UniversalTx/UniversalNode';
-import { GetStakeResponse } from 'ezchainjs2/dist/apis/platformvm/interfaces';
+import { GetStakeResponse } from '@ezclabs/ezchainjs/dist/apis/platformvm/interfaces';
 import { networkEvents } from '@/Network/eventEmitter';
 import { NetworkConfig } from '@/Network';
 import { chainIdFromAlias } from '@/Network/helpers/idFromAlias';

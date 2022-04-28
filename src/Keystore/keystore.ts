@@ -33,7 +33,7 @@ import { AccessWalletMultipleInput } from './types';
 // import { keyToKeypair } from '@/helpers/helper'
 import * as bip39 from 'bip39';
 import { bintools } from '@/common';
-import { Buffer as AjsBuffer } from 'ezchainjs2';
+import { Buffer as AjsBuffer } from '@ezclabs/ezchainjs';
 
 const cryptoHelpers = new Crypto();
 

@@ -1,10 +1,10 @@
 import * as bip32 from 'bip32';
-import { getPreferredHRP } from 'ezchainjs2/dist/utils';
+import { getPreferredHRP } from '@ezclabs/ezchainjs/dist/utils';
 import { activeNetwork, avalanche, pChain, xChain } from '@/Network/network';
-import { KeyPair as AVMKeyPair, KeyChain as AVMKeyChain } from 'ezchainjs2/dist/apis/avm/keychain';
-import { KeyChain as PlatformKeyChain, KeyPair as PlatformKeyPair } from 'ezchainjs2/dist/apis/platformvm';
+import { KeyPair as AVMKeyPair, KeyChain as AVMKeyChain } from '@ezclabs/ezchainjs/dist/apis/avm/keychain';
+import { KeyChain as PlatformKeyChain, KeyPair as PlatformKeyPair } from '@ezclabs/ezchainjs/dist/apis/platformvm';
 import { HdChainType } from './types';
-import { Buffer } from 'ezchainjs2';
+import { Buffer } from '@ezclabs/ezchainjs';
 import {
     DERIVATION_SLEEP_INTERVAL,
     HD_SCAN_GAP_SIZE,

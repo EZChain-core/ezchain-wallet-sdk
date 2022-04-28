@@ -1,4 +1,4 @@
-import { Buffer } from 'ezchainjs2';
+import { Buffer } from '@ezclabs/ezchainjs';
 import Erc20Token from '@/Asset/Erc20Token';
 
 export interface iAssetCache {

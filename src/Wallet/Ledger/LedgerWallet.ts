@@ -22,8 +22,8 @@ import {
     AVMConstants,
     ImportTx as AVMImportTx,
     SelectCredentialClass as AVMSelectCredentialClass,
-} from 'ezchainjs2/dist/apis/avm';
-import { Credential, SigIdx, Signature } from 'ezchainjs2/dist/common';
+} from '@ezclabs/ezchainjs/dist/apis/avm';
+import { Credential, SigIdx, Signature } from '@ezclabs/ezchainjs/dist/common';
 import {
     UnsignedTx as EVMUnsignedTx,
     Tx as EVMTx,
@@ -32,7 +32,7 @@ import {
     EVMInput,
     SelectCredentialClass as EVMSelectCredentialClass,
     EVMConstants,
-} from 'ezchainjs2/dist/apis/evm';
+} from '@ezclabs/ezchainjs/dist/apis/evm';
 import {
     UnsignedTx as PlatformUnsignedTx,
     Tx as PlatformTx,
@@ -40,9 +40,9 @@ import {
     ExportTx as PlatformExportTx,
     ImportTx as PlatformImportTx,
     SelectCredentialClass as PlatformSelectCredentialClass,
-} from 'ezchainjs2/dist/apis/platformvm';
+} from '@ezclabs/ezchainjs/dist/apis/platformvm';
 import { activeNetwork, avalanche, web3 } from '@/Network/network';
-import { Buffer } from 'ezchainjs2';
+import { Buffer } from '@ezclabs/ezchainjs';
 import { ChainIdType } from '@/types';
 import { ParseableAvmTxEnum, ParseablePlatformEnum, ParseableEvmTxEnum } from '@/helpers/tx_helper';
 import createHash from 'create-hash';

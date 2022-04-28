@@ -1,5 +1,5 @@
 import { NetworkConfig } from './types';
-import { Defaults } from 'ezchainjs2/dist/utils';
+import { Defaults } from '@ezclabs/ezchainjs/dist/utils';
 import { getRpcC, getRpcP, getRpcX } from './helpers/rpcFromConfig';
 
 export const MainnetConfig: NetworkConfig = {

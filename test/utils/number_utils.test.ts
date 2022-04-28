@@ -1,5 +1,5 @@
 import * as Utils from '@/utils';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 
 describe('stringToBN', () => {
     it('no decimals', () => {

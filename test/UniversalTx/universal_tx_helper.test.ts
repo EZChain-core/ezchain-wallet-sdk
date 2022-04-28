@@ -1,5 +1,5 @@
 import { createGraphForC, createGraphForP, createGraphForX, UniversalTx } from '@/UniversalTx';
-import { BN } from 'ezchainjs2';
+import { BN } from '@ezclabs/ezchainjs';
 import { pChain, xChain } from '@/Network/network';
 
 jest.mock('@/Network/network', () => {
